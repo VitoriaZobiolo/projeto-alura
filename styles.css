@@ -1,0 +1,50 @@
+/* Estilo básico para o corpo da página */
+body {
+    background-color: #f3e6f9; /* Fundo roxinho bem clarinho */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Faixa preta com o nome VitzFlix */
+.topo {
+    background-color: black;
+    color: #8A2BE2; /* Roxo para o nome */
+    text-align: center;
+    padding: 20px;
+    font-size: 2rem;
+    letter-spacing: 2px;
+}
+
+/* Estilo para os títulos */
+h2 {
+    color: #FF66B2; /* Rosa */
+    border: 3px solid #D6336C; /* Borda rosa escuro */
+    padding: 10px;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 1.8rem;
+}
+
+/* Estilo para o vídeo */
+.video {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilo para a seção de catálogo */
+.catalogo {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.catalogo iframe {
+    width: 30%;
+    height: 200px;
+    margin: 10px;
+    border: 2px solid #D6336C; /* Borda rosa escuro */
+}
